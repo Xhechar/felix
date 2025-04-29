@@ -43,9 +43,7 @@
 }
 
 /* ===== Reset & Base Styles ===== */
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -115,14 +113,6 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent);
-}
-
-/* ===== Utility Classes ===== */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--spacing-md);
 }
 
 .highlight {
@@ -242,9 +232,8 @@ img {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background: var(--primary);
+    /* background: var(--primary); */
     padding-top: 80px;
-    /* Account for fixed navbar */
 }
 
 .hero-section::before {
@@ -890,17 +879,6 @@ img {
         width: 80%;
         margin: 0 auto;
     }
-}
-
-.particles {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    pointer-events: none;
 }
 
 /* Additional Body Styles */
