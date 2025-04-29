@@ -1569,7 +1569,7 @@ section {
 .projects-section {
     position: relative;
     overflow: hidden;
-    padding: 0 var(--spacing-xl);
+    padding: 1.5rem var(--spacing-xl);
 }
 
 .projects-section::before {
@@ -1862,23 +1862,11 @@ section {
     }
 }
 
-/* Services Section */
-
 /* ===== Services Section ===== */
 .services-section {
     position: relative;
     overflow: hidden;
-}
-
-.services-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(10, 25, 47, 0.7) 0%, rgba(2, 12, 27, 0.9) 100%);
-    z-index: -1;
+    padding: 1.5rem var(--spacing-xl);
 }
 
 .services-grid {
@@ -2006,10 +1994,6 @@ section {
     transition: width var(--transition-normal);
 }
 
-.service-card:hover h3::after {
-    width: 100%;
-}
-
 .service-card p {
     color: var(--light);
     margin-bottom: var(--spacing-sm);
@@ -2078,12 +2062,11 @@ section {
     }
 }
 
-/* My Experience */
-
 /* Experience Section Styles */
 .experience-section {
     position: relative;
     overflow: hidden;
+    padding: 1.5rem var(--spacing-xl);
 }
 
 .timeline {
@@ -2108,7 +2091,7 @@ section {
 }
 
 .timeline-item {
-    padding: var(--spacing-md) 0;
+    padding: var(--spacing-xs) 0;
     position: relative;
     width: 100%;
     display: flex;
@@ -2149,7 +2132,7 @@ section {
     border-radius: var(--radius-md);
     font-weight: 600;
     top: 35px;
-    left: 50%;
+    left: 54%;
     transform: translateX(-230px);
     border: 2px solid var(--secondary);
     transition: var(--transition-normal);
@@ -2163,7 +2146,7 @@ section {
 }
 
 .timeline-content {
-    width: 45%;
+    width: 40%;
     padding: var(--spacing-md);
     background: rgba(10, 25, 47, 0.8);
     border-radius: var(--radius-md);
@@ -2187,7 +2170,7 @@ section {
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
-    left: 55%;
+    left: 30%;
 }
 
 .timeline-item:nth-child(odd) .timeline-content::before {
@@ -2195,7 +2178,7 @@ section {
 }
 
 .timeline-item:nth-child(even) .timeline-content {
-    right: 55%;
+    right: 30%;
 }
 
 .timeline-item:nth-child(even) .timeline-content::before {
@@ -2407,6 +2390,7 @@ section {
 .certificates-section {
     position: relative;
     overflow: hidden;
+    padding: 1.5rem var(--spacing-xl);
 }
 
 .certificates-grid {
@@ -2460,6 +2444,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
     transition: var(--transition-normal);
 }
 
@@ -2507,6 +2492,7 @@ section {
 .contact-section {
     position: relative;
     overflow: hidden;
+    padding: 1.5rem var(--spacing-xl);
 }
 
 .contact-container {
