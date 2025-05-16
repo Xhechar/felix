@@ -394,6 +394,11 @@ img {
     transition: transform var(--transition-normal);
 }
 
+.profile-img.x {
+    width: 120%;
+    transform: translateY(50%);
+}
+
 .hexagon:hover .profile-img {
     transform: scale(1.05);
 }
