@@ -395,12 +395,8 @@ img {
 }
 
 .profile-img.x {
-    width: 120%;
-    transform: translateY(50%);
-}
-
-.hexagon:hover .profile-img {
-    transform: scale(1.05);
+    width: 100%;
+    transform: translateY(15%) !important;
 }
 
 /* Tech Bubbles Animation */
@@ -1218,7 +1214,7 @@ section {
     z-index: 2;
 }
 
-.hexagonx img {
+.hexagonx .profile-img.y {
     position: absolute;
     top: 0;
     left: 0;
@@ -1233,7 +1229,7 @@ section {
     transform: scale(1.05);
 }
 
-.hexagonx:hover img {
+.hexagonx:hover .profile-img.y {
     transform: scale(1.1) rotate(5deg);
 }
 
